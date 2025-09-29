@@ -147,7 +147,6 @@ section {
   flex: 1 1 320px;
   max-width: 350px;
   min-width: 260px;
-  width: 100%;
   box-sizing: border-box;
   padding: 1.2rem 1rem;
   min-height: 30px;
