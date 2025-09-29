@@ -129,11 +129,11 @@ section {
 /* Cards de projetos */
 .projetos-lista {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 /* Projeto cards: branco, sombra leve, efeito hover */
 /* Card de projeto individual */
