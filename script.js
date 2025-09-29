@@ -1,12 +1,7 @@
 // Saudação dinâmica no topo
 window.addEventListener("DOMContentLoaded", function () {
   const header = document.querySelector(".header-content h1");
-  const hora = new Date().getHours();
-  let saudacao = "Seja bem-vindo(a)!";
-  if (hora >= 5 && hora < 12) saudacao = "Bom dia!";
-  else if (hora >= 12 && hora < 18) saudacao = "Boa tarde!";
-  else saudacao = "Boa noite!";
-  header.textContent = saudacao;
+  header.textContent = "Bem-vindo(a) ao meu portfólio!";
 
   // Efeito de destaque nos projetos
   document.querySelectorAll(".projeto").forEach(function (proj) {
