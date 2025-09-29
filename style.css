@@ -95,9 +95,9 @@ header nav a:hover {
   text-decoration: underline;
 }
 main {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 2.5rem auto;
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem 1.5rem;
 }
 section {
   margin-bottom: 2.2rem;
@@ -145,7 +145,7 @@ section {
   box-shadow: 0 2px 12px rgba(128, 0, 32, 0.1);
   padding: 0;
   flex: 1 1 320px;
-  max-width: 350px;
+  max-width: 320px;
   min-width: 260px;
   box-sizing: border-box;
   padding: 1.2rem 1rem;
